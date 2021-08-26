@@ -53,4 +53,4 @@ jobs:
           app-name: 'VueAppTest1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E324B7B501346D0B2D0F7F5E688F97F }}
-          package: .
+          package: "/dist/"
