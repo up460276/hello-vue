@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ heading }}</h1>
+    <h1 >{{ heading }}</h1>
     <p>{{ content}}</p>
+    <span v-bind:title="message">test for title v bind</span>
   </div>
 </template>
 
@@ -10,7 +11,8 @@ export default {
   name: 'FirstComponent',
   props: {
     heading: String,
-    content: String
+    content: String,
+    message: String
   }
 }
 </script>
