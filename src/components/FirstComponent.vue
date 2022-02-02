@@ -13,7 +13,10 @@ export default {
     heading: String,
     content: String,
     message: String
-  }
+  },
+  data(){
+      return {}
+  }  
 }
 </script>
 
